@@ -32,10 +32,6 @@ function App() {
             element: <About />,
           },
           {
-            path: "events",
-            element: <Events />,
-          },
-          {
             path: "upcoming",
             element: <Upcoming />,
           },
