@@ -6,7 +6,6 @@ import { AppLayout } from "./components/layout/AppLayout";
 import { Error } from "./pages/ErrorPage";
 import { Home } from "./pages/Home";
 import { About } from "./pages/About";
-import { Events } from "./pages/Events";
 import { Upcoming } from "./pages/Upcoming";
 import { Released } from "./pages/Released";
 import { Contact } from "./pages/Contact";
