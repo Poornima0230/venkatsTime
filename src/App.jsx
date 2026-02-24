@@ -51,7 +51,7 @@ function App() {
       },
     ],
     {
-      basename: import.meta.env.MODE === "production" ? "/venkatsTime/" : "/",
+      basename: import.meta.env.BASE_URL,
     }
   );
   return <RouterProvider router={router} />;
