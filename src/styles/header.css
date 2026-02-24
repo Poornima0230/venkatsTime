@@ -1,0 +1,144 @@
+.header {
+    position: absolute;
+    box-shadow: 0 0 10px #e6c329c4;
+    top: 0;
+    width: 100%;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+
+    padding-top: 1rem;
+
+}
+
+/* Logo */
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+    font-size: 2rem;
+
+    padding-bottom: 1.2rem;
+    font-family: "Playfair Display", sans-serif;
+    color: var(--accent-2);
+    border-bottom: 0.2px solid var(--accent-3);
+
+}
+
+.logo img {
+    height: 5.5rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+/* Navigation */
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+
+    padding: 1.2rem;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2.8rem;
+}
+
+.nav ul li a,
+.nav ul li .event-nav {
+    color: var(--accent-6);
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.drop-arrow {
+    font-size: 2.3rem;
+    position: relative;
+    top: 0.6rem;
+}
+
+.event-tab {
+    position: relative;
+    top: -0.3rem;
+    list-style: none;
+    cursor: pointer;
+}
+
+.drop-arrow {
+    font-size: 22px;
+    transition: transform 0.3s ease;
+    -webkit-transition: transform 0.3s ease;
+    -moz-transition: transform 0.3s ease;
+    -ms-transition: transform 0.3s ease;
+    -o-transition: transform 0.3s ease;
+}
+
+/* Rotate arrow when open */
+.event-tab .drop-arrow {
+    transform: rotate(0deg);
+}
+
+.event-tab.open .drop-arrow {
+    transform: rotate(180deg);
+}
+
+.dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    width: max-content;
+    list-style: none;
+    padding: 8px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+}
+
+.dropdown li {
+    padding: 10px 15px;
+}
+
+.dropdown li a {
+    border-bottom: 0.2px solid var(--accent-2);
+    padding: 1rem;
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.dropdown li a:hover {
+    color: var(--accent-2)
+}
+
+@media (max-width: 768px) {
+
+    .header {
+        padding: 1rem;
+    }
+
+    .event-tab {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        gap: 0;
+        top: -0.56rem;
+        width: 10rem;
+    }
+
+    .drop-arrow {
+        top: 0.7rem;
+    }
+}

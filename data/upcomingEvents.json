@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "title": "Jk Event1",
+        "description": "Lorem ipsum dolor sit amet consectetur",
+        "date": "30-02-2026",
+        "venue": "vijayawada",
+        "mode": "Virtual"
+    },
+    {
+        "id": 2,
+        "title": "Jk Event2",
+        "description": "Lorem ipsum dolor sit amet consectetur",
+        "date": "30-02-2026",
+        "venue": "vijayawada",
+        "mode": "Virtual"
+    },
+    {
+        "id": 3,
+        "title": "Jk Event3",
+        "description": "Lorem ipsum dolor sit amet consectetur",
+        "date": "30-02-2026",
+        "venue": "vijayawada",
+        "mode": "Virtual"
+    },
+    {
+        "id": 4,
+        "title": "Jk Event4",
+        "description": "Lorem ipsum dolor sit amet consectetur",
+        "date": "30-02-2026",
+        "venue": "vijayawada",
+        "mode": "Virtual"
+    }
+]

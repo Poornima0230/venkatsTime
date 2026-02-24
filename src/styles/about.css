@@ -1,0 +1,50 @@
+.about-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 19rem 3.5rem;
+}
+
+.heading h1 {
+    font-size: 3.5rem;
+    padding: 0;
+    text-align: center;
+    color: var(--accent-2);
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.5rem;
+}
+
+.second-about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.second-about p {
+    width: 20%;
+}
+
+.about-page p {
+    font-size: 1.8rem;
+    width: 80%;
+    text-align: justify;
+    padding-bottom: 1.2rem;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .about-page {
+        padding: 18rem 1rem;
+    }
+
+    .about-page p {
+        width: 100%;
+        padding: 0.5rem;
+    }
+}

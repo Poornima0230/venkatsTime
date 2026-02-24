@@ -1,0 +1,134 @@
+.home-container {
+    padding: 13rem 3.5rem;
+}
+
+/* image slider */
+.slider {
+    width: 70rem;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider-wrapper {
+    overflow: hidden;
+    width: 100%;
+}
+
+.slider-image {
+    margin-top: 7rem;
+    width: 100%;
+    height: 40rem;
+    flex-shrink: 0;
+    object-fit: cover;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: all 3s ease-in;
+    -webkit-transition: all 3s ease-in;
+    -moz-transition: all 3s ease-in;
+    -ms-transition: all 3s ease-in;
+    -o-transition: all 3s ease-in;
+}
+
+.slider-track {
+    display: flex;
+    transition: transform 0.6s ease-in-out;
+}
+
+/* Arrows */
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    color: white;
+    padding: 8px 0;
+    cursor: pointer;
+    z-index: 99;
+}
+
+.left {
+    left: 10px;
+}
+
+.right {
+    right: 10px;
+}
+
+/* Dots */
+.dots {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    background-color: gray;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: black;
+}
+
+/* slider content */
+.slider-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+/* hero-content */
+.hero-content {
+    width: 50%;
+    padding: 1.8rem;
+}
+
+.hero-heading {
+    font-size: 4.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--accent-2);
+}
+
+.hero-subheading {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--accent-4);
+    padding-bottom: 2rem;
+}
+
+.hero-content p {
+    font-size: 1.8rem;
+}
+
+@media (max-width:729px) {
+    .slider {
+        width: 100%;
+    }
+
+    .slider-image {
+        object-fit: fill;
+        height: 30rem;
+        margin-top: 5rem;
+    }
+
+    .home-container {
+        padding: 14rem 1rem;
+    }
+
+    .slider-container {
+        flex-direction: column;
+    }
+
+    .hero-content {
+        width: 100%;
+    }
+}
