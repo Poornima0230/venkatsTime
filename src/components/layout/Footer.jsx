@@ -17,7 +17,7 @@ export const Footer = () => {
         <img src={isoLogo} alt="iso certified company" />
         <img src={msme} alt="msme logo" />
       </div>
-      <p>Design ans developed by vignora edge</p>
+      <p>Design and developed by vignora edge</p>
     </footer>
   );
 };
