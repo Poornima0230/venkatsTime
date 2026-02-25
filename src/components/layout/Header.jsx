@@ -43,9 +43,9 @@ export const Header = () => {
                 )}
               </div>
             </li>
-            <li>
+            {/* <li>
               <NavLink to="/brochure">Brochure</NavLink>
-            </li>
+            </li> */}
             <li>
               <NavLink to="/contact">Contact</NavLink>
             </li>

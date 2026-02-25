@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import image1 from "../../assets/bgImage.png";
-import image2 from "../../assets/SLICE.png";
-import image4 from "../../assets/slice.png";
+import image1 from "../../assets/img1.jpeg";
+import image2 from "../../assets/img2.jpeg";
+import image4 from "../../assets/img3.jpeg";
 
 export const ImageSlider = () => {
   const images = [image1, image2, image4];

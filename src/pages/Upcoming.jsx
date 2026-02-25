@@ -4,7 +4,7 @@ import events from "../../data/upcomingEvents.json";
 export const Upcoming = () => {
   return (
     <div className="upcoming-container" data-aos="fade-up">
-      <h1 data-aos="zoom-in">Upcoming events</h1>
+      <h1 data-aos="zoom-in">Upcoming Events</h1>
       <hr data-aos="zoom-in" />
       <div className="event-container" data-aos="fade-up">
         {[...events].reverse().map((event) => (

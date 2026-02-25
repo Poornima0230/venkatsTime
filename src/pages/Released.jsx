@@ -4,7 +4,7 @@ import events from "../../data/releasedEvents.json";
 export const Released = () => {
   return (
     <div className="released-container" data-aos="fade-up">
-      <h1 data-aos="zoom-in">Released events</h1>
+      <h1 data-aos="zoom-in">Released Events</h1>
       <hr data-aos="zoom-in" />
       <div className="event-container" data-aos="fade-up">
         {[...events].reverse().map((event) => (

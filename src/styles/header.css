@@ -1,3 +1,7 @@
+/* header {
+    position: relative;
+} */
+
 .header {
     position: absolute;
     box-shadow: 0 0 10px #e6c329c4;
@@ -19,6 +23,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
     gap: 1.2rem;
     font-size: 2rem;
 
@@ -44,6 +49,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    flex-wrap: wrap;
+
     gap: 3rem;
 
     padding: 1.2rem;
@@ -52,6 +60,9 @@
 .nav ul {
     list-style: none;
     display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: center;
     gap: 2.8rem;
 }
 
@@ -63,6 +74,11 @@
     font-weight: 500;
 }
 
+.nav ul li a:hover,
+.nav ul li .event-nav:hover {
+    color: var(--accent-2);
+}
+
 .drop-arrow {
     font-size: 2.3rem;
     position: relative;
@@ -71,7 +87,7 @@
 
 .event-tab {
     position: relative;
-    top: -0.3rem;
+    top: -0.1rem;
     list-style: none;
     cursor: pointer;
 }
@@ -134,7 +150,7 @@
         justify-content: center;
         padding: 0;
         gap: 0;
-        top: -0.56rem;
+        top: -0.3rem;
         width: 10rem;
     }
 
