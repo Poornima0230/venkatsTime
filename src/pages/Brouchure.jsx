@@ -8,8 +8,6 @@ export const Brouchure = () => {
 
   return (
     <div className="brochure-page" data-aos="fade-up">
-      <h1 data-aos="zoom-in">Brochure</h1>
-      <hr data-aos="zoom-in" />
       <div
         className="card-container"
         onClick={() => setIsFlipped(!isFlipped)}
