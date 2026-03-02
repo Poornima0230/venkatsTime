@@ -6,6 +6,7 @@ import image4 from "../../assets/img3.jpeg";
 export const ImageSlider = () => {
   const images = [image1, image2, image4];
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [isHover, setIsHover] = useState(false);
 
   const nextSlide = () => {
     // setCurrentIndex((currentIndex + 1) % images.length);
@@ -19,15 +20,21 @@ export const ImageSlider = () => {
 
   // auto sliding
   useEffect(() => {
+    if (isHover) return;
+
     const interval = setInterval(() => {
       nextSlide();
     }, 3000);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [isHover]);
 
   return (
-    <div className="slider">
+    <div
+      className="slider"
+      onMouseEnter={() => setIsHover(true)}
+      onMouseLeave={() => setIsHover(false)}
+    >
       {/* <button onClick={prevSlide}>Prev</button> */}
       <span className="arrow left" onClick={prevSlide}>
         &#10094;
