@@ -113,6 +113,10 @@
     }
 }
 
+.released-container {
+    height: 100dvh;
+}
+
 .brochure-overlay {
     position: fixed;
     top: 0;
