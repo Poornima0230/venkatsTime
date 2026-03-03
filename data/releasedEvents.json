@@ -1,34 +1,10 @@
 [
     {
         "id": 1,
-        "title": "Jk Event",
-        "description": "Lorem ipsum dolor sit amet consectetur",
-        "date": "30-02-2026",
-        "venue": "vijayawada",
-        "mode": "Virtual"
-    },
-    {
-        "id": 2,
-        "title": "Jk Event",
-        "description": "Lorem ipsum dolor sit amet consectetur",
-        "date": "30-02-2026",
-        "venue": "vijayawada",
-        "mode": "Virtual"
-    },
-    {
-        "id": 3,
-        "title": "Jk Event",
-        "description": "Lorem ipsum dolor sit amet consectetur",
-        "date": "30-02-2026",
-        "venue": "vijayawada",
-        "mode": "Virtual"
-    },
-    {
-        "id": 4,
-        "title": "Jk Event",
-        "description": "Lorem ipsum dolor sit amet consectetur",
-        "date": "30-02-2026",
-        "venue": "vijayawada",
+        "title": "National Level Virtual Workshop",
+        "description": "On Spring Boot with AI",
+        "date": "14 February 2026",
+        "venue": "10:00AM-01:00PM & 03:00PM-05:00PM",
         "mode": "Virtual"
     }
 ]

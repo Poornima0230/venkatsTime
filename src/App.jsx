@@ -11,6 +11,8 @@ import { Released } from "./pages/Released";
 import { Contact } from "./pages/Contact";
 import { useEffect } from "react";
 import { Brouchure } from "./pages/Brouchure";
+import { UpPublications } from "./pages/UpPublications";
+import { OldPublications } from "./pages/OldPublications";
 
 function App() {
   useEffect(() => {
@@ -46,6 +48,14 @@ function App() {
           {
             path: "brochure",
             element: <Brouchure />,
+          },
+          {
+            path: "upcomingPublications",
+            element: <UpPublications />,
+          },
+          {
+            path: "releasedPublications",
+            element: <OldPublications />,
           },
         ],
       },

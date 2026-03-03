@@ -30,8 +30,6 @@ export const ScrollToTop = () => {
     <>
       {showButton && (
         <button onClick={scrollToTop} className="scroll-btn">
-          {/* &2191; */}
-          {/* ↑ */}
           <FaArrowUp />
         </button>
       )}

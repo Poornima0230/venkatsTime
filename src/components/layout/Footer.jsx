@@ -2,9 +2,11 @@ import "../../styles/footer.css";
 import venkatlLogo from "../../assets/venkatLogo.jpg";
 import isoLogo from "../../assets/isoLogo.avif";
 import msme from "../../assets/msme.png";
+import { Contact } from "../../pages/Contact";
 export const Footer = () => {
   return (
     <footer className="footer">
+      <Contact className="contact" />
       <div className="ff">
         <h3>
           Organized by <b>VENKAT'S TIME</b>

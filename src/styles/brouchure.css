@@ -1,5 +1,5 @@
 .brochure-page {
-    /* padding: 3rem 3.5rem; */
+    padding: 3rem 3.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -7,7 +7,7 @@
 
     /* height: 100dvh; */
     position: relative;
-    z-index: 10001;
+    z-index: 1001;
 }
 
 .brochure-page h1 {
@@ -76,7 +76,7 @@
 @media (max-width:729px) {
 
     .card-container {
-        /* margin-top: 3.5rem; */
+        margin-top: 0rem;
         /* width: 100%; */
         height: 40rem;
         width: 43rem;

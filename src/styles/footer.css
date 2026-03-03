@@ -1,6 +1,7 @@
 .footer {
-    background-color: var(--accent-2);
     color: #fff;
+    background-color: var(--accent-2);
+
 
     display: flex;
     align-items: center;
@@ -11,10 +12,14 @@
 
     padding: 3rem;
 
-    margin-top: 5rem;
+    margin-top: 20rem;
 
     font-size: 1.3rem;
+
+    position: relative;
+
 }
+
 
 
 .ff {

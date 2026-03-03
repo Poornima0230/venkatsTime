@@ -8,10 +8,17 @@ export const Brouchure = () => {
 
   return (
     <div className="brochure-page" data-aos="fade-up">
-      <div
+      {/* <div
         className="card-container"
         onClick={() => setIsFlipped(!isFlipped)}
         data-aos="zoom-in"
+      > */}
+      <div
+        className="card-container"
+        onClick={(e) => {
+          e.stopPropagation();
+          setIsFlipped(!isFlipped);
+        }}
       >
         <div className={`card ${isFlipped ? "flipped" : ""}`}>
           {/* front */}
