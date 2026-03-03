@@ -6,14 +6,24 @@ import upcoming1 from "../assets/upcoming1.jpeg";
 import upcoming2 from "../assets/upcoming2.jpeg";
 import upcoming3 from "../assets/upcoming3.jpeg";
 
+import pdf1 from "../assets/old1.pdf";
+import pdf2 from "../assets/up1.pdf";
+
 export const Upcoming = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 
+  const brochureFiles = {
+    1: upcoming1,
+    2: upcoming2,
+    3: upcoming3,
+    4: pdf1,
+    5: pdf2,
+  };
   useEffect(() => {
     document.body.style.overflow = selectedImage ? "hidden" : "auto";
   }, [selectedImage]);
 
-  const images = [upcoming1, upcoming2, upcoming3];
+  // const images = [upcoming1, upcoming2, upcoming3];
 
   // const [showBrochure, setShowBrochure] = useState(false);
   // useEffect(() => {
@@ -27,18 +37,29 @@ export const Upcoming = () => {
       <h1 data-aos="zoom-in">Upcoming Events</h1>
       <hr data-aos="zoom-in" />
       <div className="event-container" data-aos="fade-up">
-        {[...events].reverse().map((event, index) => (
+        {[...events].reverse().map((event) => (
           <div key={event.id} className="each-event">
             <h3>{event.title}</h3>
             <p>{event.description}</p>
 
             <ul className="event-info">
               <li>{event.date}</li>
-              <li>{event.venue}</li>
+              {/* <li>{event.venue}</li> */}
               <li>{event.mode}</li>
             </ul>
             {/* <button onClick={() => setShowBrochure(true)}>View Details</button> */}
-            <button onClick={() => setSelectedImage(images[index])}>
+            <button
+              // onClick={() => setSelectedImage(images[index])}
+              onClick={() => {
+                const file = brochureFiles[event.id];
+
+                if (file.endsWith(".pdf")) {
+                  window.open(file, "_blank");
+                } else {
+                  setSelectedImage(file);
+                }
+              }}
+            >
               View Details
             </button>
           </div>

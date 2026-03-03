@@ -16,6 +16,13 @@
 
     margin-top: -13rem;
 
+    & .contact-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem
+    }
+
 }
 
 .contact-page .underline {

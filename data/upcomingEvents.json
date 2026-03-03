@@ -4,7 +4,6 @@
         "title": "International Conference",
         "description": "Three Day International Conference Organized by SKVT Government Degree COllege, Rajamahendravarm",
         "date": "23-25 April 2026",
-        "venue": "Rajamahendravaram, East Godavari District, Andhra Pradesh",
         "mode": "Conference"
     },
     {
@@ -12,7 +11,6 @@
         "title": "International Workshop",
         "description": "Two Day International Intensive Workshop Jointly Organized",
         "date": "21-22 March 2026",
-        "venue": "Workshop",
         "mode": "Virtual"
     },
     {
@@ -20,7 +18,20 @@
         "title": "International Conference",
         "description": "Three day international Conference Jointly Organized",
         "date": "11-13 April 2026",
-        "venue": "Venue to be Announced",
         "mode": "Conference"
+    },
+    {
+        "id": 4,
+        "title": "International Intensive WorkShop",
+        "description": "Harmonizing Human Intelligence ans AI Tools: Transforming Classroom Teaching, Learning Research Writing in 21st century",
+        "date": "21-22 March 2026",
+        "mode": "Virtual"
+    },
+    {
+        "id": 5,
+        "title": "International Conference",
+        "description": "Teaching English in the Era of Artificial Intelligence: Challenges and Opportunities",
+        "date": "11-13 April 2026",
+        "mode": "Virtual"
     }
 ]
