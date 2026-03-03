@@ -18,6 +18,11 @@
 
     position: relative;
 
+    & p a {
+        font-weight: 800;
+        color: #fff;
+    }
+
 }
 
 
@@ -37,6 +42,7 @@
 
     & p {
         font-size: 1.3rem;
+
     }
 }
 

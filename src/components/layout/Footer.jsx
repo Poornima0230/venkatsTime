@@ -19,7 +19,12 @@ export const Footer = () => {
         <img src={isoLogo} alt="iso certified company" />
         <img src={msme} alt="msme logo" />
       </div>
-      <p>Design and developed by vignora edge</p>
+      <p>
+        Design and developed by{" "}
+        <a href="https://vignoraedge.classwalla.com/index.php" target="_blank">
+          Vignora Edge
+        </a>
+      </p>
     </footer>
   );
 };
