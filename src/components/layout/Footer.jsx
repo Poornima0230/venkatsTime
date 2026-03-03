@@ -3,6 +3,7 @@ import venkatlLogo from "../../assets/venkatLogo.jpg";
 import isoLogo from "../../assets/isoLogo.avif";
 import msme from "../../assets/msme.png";
 import { Contact } from "../../pages/Contact";
+import { Link } from "react-router-dom";
 export const Footer = () => {
   return (
     <footer className="footer">
@@ -21,9 +22,9 @@ export const Footer = () => {
       </div>
       <p>
         Design and developed by{" "}
-        <a href="https://vignoraedge.classwalla.com/index.php" target="_blank">
+        <Link to="https://vignoraedge.classwalla.com/index.php" target="_blank">
           Vignora Edge
-        </a>
+        </Link>
       </p>
     </footer>
   );
