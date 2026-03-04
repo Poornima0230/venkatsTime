@@ -18,7 +18,7 @@ export const HeroContent = () => {
         learning hours, offering a vibrant community for continuous mentorship,
         collaborative problem-solving, and access to cutting-edge resources that
         adapt to the evolving demands of various industries and academic
-        pursuits. *It actively integrates the latest advancements in technology
+        pursuits. It actively integrates the latest advancements in technology
         and educational research, ensuring that its methodologies remain at the
         forefront of effective learning. By prioritizing interactive sessions,
         real-world case studies, and a supportive ecosystem, VENKAT's TIME

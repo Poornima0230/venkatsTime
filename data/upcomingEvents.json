@@ -7,28 +7,14 @@
         "mode": "Conference"
     },
     {
-        "id": 2,
-        "title": "International Workshop",
-        "description": "Two Day International Intensive Workshop Jointly Organized",
-        "date": "21-22 March 2026",
-        "mode": "Virtual"
-    },
-    {
-        "id": 3,
-        "title": "International Conference",
-        "description": "Three day international Conference Jointly Organized",
-        "date": "11-13 April 2026",
-        "mode": "Conference"
-    },
-    {
-        "id": 4,
+        "id": 5,
         "title": "International Intensive WorkShop",
         "description": "Harmonizing Human Intelligence ans AI Tools: Transforming Classroom Teaching, Learning Research Writing in 21st century",
         "date": "21-22 March 2026",
         "mode": "Virtual"
     },
     {
-        "id": 5,
+        "id": 4,
         "title": "International Conference",
         "description": "Teaching English in the Era of Artificial Intelligence: Challenges and Opportunities",
         "date": "11-13 April 2026",
