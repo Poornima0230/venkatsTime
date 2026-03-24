@@ -1,10 +1,7 @@
 import "../styles/events.css";
 import events from "../../data/upcomingEvents.json";
 import { useEffect, useState } from "react";
-// import { Brouchure } from "./Brouchure";
-import upcoming1 from "../assets/upcoming1.jpeg";
-import upcoming2 from "../assets/upcoming2.jpeg";
-import upcoming3 from "../assets/upcoming3.jpeg";
+import upcoming1 from "../assets/upcoming1.pdf";
 
 import pdf1 from "../assets/old1.pdf";
 import pdf2 from "../assets/up1.pdf";
@@ -14,8 +11,6 @@ export const Upcoming = () => {
 
   const brochureFiles = {
     1: upcoming1,
-    2: upcoming2,
-    3: upcoming3,
     4: pdf1,
     5: pdf2,
   };
