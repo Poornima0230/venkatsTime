@@ -6,9 +6,13 @@ import { ScrollToTop } from "../ui/ScrollToTop";
 export const AppLayout = () => {
   return (
     <>
-      <Header />
-      <Outlet />
       <ScrollToTop />
+      <Header />
+      <main
+      // className="main-content"
+      >
+        <Outlet />
+      </main>
       <Footer />
     </>
   );

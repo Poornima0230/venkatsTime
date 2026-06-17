@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 
 :root {
   --accent-1: #121212;
@@ -51,7 +50,7 @@ li {
   background-color: var(--accent-2);
 }
 
-@media (max-width:729px) {
+@media (max-width: 729px) {
   html {
     font-size: 55%;
   }

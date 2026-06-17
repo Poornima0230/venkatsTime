@@ -1,12 +1,14 @@
 import "../styles/events.css";
 import events from "../../data/upcomingEvents.json";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import upcoming1 from "../assets/upcoming1.pdf";
 
 import pdf1 from "../assets/old1.pdf";
 import pdf2 from "../assets/up1.pdf";
+import { EventList } from "../components/events/EventList";
+import { EventModal } from "../components/events/EventModal";
 
-export const Upcoming = () => {
+export const UpcomingEvents = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 
   const brochureFiles = {
@@ -14,16 +16,24 @@ export const Upcoming = () => {
     4: pdf1,
     5: pdf2,
   };
-  useEffect(() => {
-    document.body.style.overflow = selectedImage ? "hidden" : "auto";
-  }, [selectedImage]);
 
-  // const images = [upcoming1, upcoming2, upcoming3];
+  const handleViewDetails = (event) => {
+    const file = brochureFiles[event.id];
 
-  // const [showBrochure, setShowBrochure] = useState(false);
+    if (!file) return;
+
+    if (file.endsWith(".pdf")) {
+      window.open(file, "_blank");
+      return;
+    }
+
+    setSelectedImage(file);
+  };
+
   // useEffect(() => {
-  //   document.body.style.overflow = showBrochure ? "hidden" : "auto";
-  // }, [showBrochure]);
+  //   document.body.style.overflow = selectedImage ? "hidden" : "auto";
+  // }, [selectedImage]);
+
   return (
     <div
       className="upcoming-container"
@@ -31,20 +41,32 @@ export const Upcoming = () => {
     >
       <h1 data-aos="zoom-in">Upcoming Events</h1>
       <hr data-aos="zoom-in" />
-      <div className="event-container" data-aos="fade-up">
+
+      <EventList events={events} onViewDetails={handleViewDetails} />
+      <EventModal
+        isOpen={!!selectedImage}
+        onClose={() => setSelectedImage(null)}
+      >
+        <img
+          src={selectedImage}
+          alt="Event Brochure"
+          className="brochure-image"
+        />
+      </EventModal>
+      {/* <div className="event-container" data-aos="fade-up">
         {[...events].reverse().map((event) => (
           <div key={event.id} className="each-event">
             <h3>{event.title}</h3>
             <p>{event.description}</p>
 
             <ul className="event-info">
-              <li>{event.date}</li>
-              {/* <li>{event.venue}</li> */}
-              <li>{event.mode}</li>
-            </ul>
-            {/* <button onClick={() => setShowBrochure(true)}>View Details</button> */}
-            <button
-              // onClick={() => setSelectedImage(images[index])}
+              <li>{event.date}</li> */}
+      {/* <li>{event.venue}</li> */}
+      {/* <li>{event.mode}</li>
+            </ul> */}
+      {/* <button onClick={() => setShowBrochure(true)}>View Details</button> */}
+      {/* <button */}
+      {/* // onClick={() => setSelectedImage(images[index])}
               onClick={() => {
                 const file = brochureFiles[event.id];
 
@@ -59,7 +81,7 @@ export const Upcoming = () => {
             </button>
           </div>
         ))}
-      </div>
+      </div> */}
 
       {/* pop up of brochure */}
       {/* {showBrochure && (
@@ -73,7 +95,7 @@ export const Upcoming = () => {
       )} */}
 
       {/* pop images */}
-      {selectedImage && (
+      {/* {selectedImage && (
         <div className="brochure-overlay">
           <button className="close-btn" onClick={() => setSelectedImage(null)}>
             X
@@ -85,7 +107,7 @@ export const Upcoming = () => {
             className="brochure-image"
           />
         </div>
-      )}
+      )} */}
     </div>
   );
 };

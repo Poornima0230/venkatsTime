@@ -1,10 +1,18 @@
 [
-    {
-        "id": 1,
-        "title": "National Level Virtual Workshop",
-        "description": "On Spring Boot with AI",
-        "date": "14 February 2026",
-        "venue": "10:00AM-01:00PM & 03:00PM-05:00PM",
-        "mode": "Virtual"
-    }
+  {
+    "id": 1,
+    "title": "National Level Virtual Workshop",
+    "description": "On Spring Boot with AI",
+    "date": "14 February 2026",
+    "venue": "10:00AM-01:00PM & 03:00PM-05:00PM",
+    "mode": "Virtual"
+  },
+  {
+    "id": 2,
+    "title": "National Level Intensive Hands on Workshop",
+    "description": "On Prompt Engineering",
+    "date": "30 May 2026 - 31 May 2026",
+    "venue": "10:00AM-12:00PM & 03:00PM-05:00PM",
+    "mode": "Virtual/Online"
+  }
 ]

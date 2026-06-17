@@ -26,7 +26,10 @@ export const Header = () => {
   return (
     <header ref={headerRef}>
       <div className="header">
-        <div className="logo" data-aos="zoom-in">
+        <div
+          className="logo"
+          // data-aos="zoom-in"
+        >
           <img src={venkatLogo} alt="VenkatsTimeLogo" />
           <h1>Venkat's Time</h1>
         </div>
@@ -35,7 +38,10 @@ export const Header = () => {
 
         {/* Navigation */}
 
-        <nav className="nav" data-aos="zoom-in">
+        <nav
+          className="nav"
+          // data-aos="zoom-in"
+        >
           <ul>
             <li>
               <NavLink to="/">Home</NavLink>
@@ -55,8 +61,8 @@ export const Header = () => {
                 {isOpen && (
                   <ul className="dropdown">
                     <li>
-                      <Link to="/upcoming">Upcoming Events</Link>
-                      <Link to="/released">Old Events</Link>
+                      <Link to="/upcomingEvents">Upcoming Events</Link>
+                      <Link to="/releasedEvents">Old Events</Link>
                     </li>
                   </ul>
                 )}
@@ -85,9 +91,6 @@ export const Header = () => {
                 )}
               </div>
             </li>
-            {/* <li>
-              <NavLink to="/contact">Contact</NavLink>
-            </li> */}
           </ul>
         </nav>
       </div>

@@ -9,12 +9,10 @@ export const ImageSlider = () => {
   const [isHover, setIsHover] = useState(false);
 
   const nextSlide = () => {
-    // setCurrentIndex((currentIndex + 1) % images.length);
     setCurrentIndex((prev) => (prev + 1) % images.length);
   };
 
   const prevSlide = () => {
-    // setCurrentIndex(currentIndex === 0 ? images.length - 1 : currentIndex - 1);
     setCurrentIndex((prev) => (prev === 0 ? images.length - 1 : prev - 1));
   };
 
@@ -35,7 +33,6 @@ export const ImageSlider = () => {
       onMouseEnter={() => setIsHover(true)}
       onMouseLeave={() => setIsHover(false)}
     >
-      {/* <button onClick={prevSlide}>Prev</button> */}
       <span className="arrow left" onClick={prevSlide}>
         &#10094;
       </span>
@@ -52,7 +49,6 @@ export const ImageSlider = () => {
         </div>
       </div>
 
-      {/* <button onClick={nextSlide}>Next</button> */}
       <span className="arrow right" onClick={nextSlide}>
         &#10095;
       </span>

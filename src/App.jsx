@@ -6,8 +6,8 @@ import { AppLayout } from "./components/layout/AppLayout";
 import { Error } from "./pages/ErrorPage";
 import { Home } from "./pages/Home";
 import { About } from "./pages/About";
-import { Upcoming } from "./pages/Upcoming";
-import { Released } from "./pages/Released";
+import { UpcomingEvents } from "./pages/UpcomingEvents";
+import { ReleasedEvents } from "./pages/ReleasedEvents";
 import { Contact } from "./pages/Contact";
 import { useEffect } from "react";
 import { Brouchure } from "./pages/Brouchure";
@@ -34,21 +34,18 @@ function App() {
             element: <About />,
           },
           {
-            path: "upcoming",
-            element: <Upcoming />,
-          },
-          {
-            path: "released",
-            element: <Released />,
-          },
-          {
             path: "contact",
             element: <Contact />,
           },
           {
-            path: "brochure",
-            element: <Brouchure />,
+            path: "upcomingEvents",
+            element: <UpcomingEvents />,
           },
+          {
+            path: "releasedEvents",
+            element: <ReleasedEvents />,
+          },
+
           {
             path: "upcomingPublications",
             element: <UpPublications />,
@@ -62,7 +59,7 @@ function App() {
     ],
     {
       basename: import.meta.env.BASE_URL,
-    }
+    },
   );
   return <RouterProvider router={router} />;
 }

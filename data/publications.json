@@ -1,0 +1,85 @@
+[
+  {
+    "id": 1,
+    "title": "Gender, Power and Patriarchy",
+    "subtitle": "Re-examining Shakespeare's Women in #MeToo Era",
+    "category": "Edited Volume",
+    "status": "released",
+    "year": "2025",
+    "editors": ["Dr. Y. Swarna Sri", "Dr. K. Venkat Satish"],
+    "price": "₹1200",
+    "isbn": "978-81-69397-95-7",
+    "description": "Critically examines the portrayal of women in Shakespeare's works through the lens of gender, power, and patriarchy while connecting classical literature to contemporary discussions.",
+    "features": [
+      "Gender Studies",
+      "Literary Criticism",
+      "Shakespeare Studies",
+      "#MeToo Discourse"
+    ],
+    "image": "genderPowerPatriarchy"
+  },
+  {
+    "id": 2,
+    "title": "Teaching English in the Era of Artificial Intelligence",
+    "subtitle": "Challenges and Opportunities",
+    "category": "Academic Publication",
+    "status": "released",
+    "year": "2025",
+    "editors": [
+      "Prof. Dr. Sirisha Sangamitra",
+      "Dr. K. Venkat Satish",
+      "Prof. Dr. Aditi Abhishikta",
+      "Mrs. Somana Sailaja"
+    ],
+    "price": "₹1900",
+    "isbn": "978-93-47100-16-1",
+    "description": "Explores how Artificial Intelligence is transforming English language teaching and learning while helping educators embrace technology-driven opportunities.",
+    "features": [
+      "AI in Education",
+      "Language Teaching",
+      "Research-Based Practices",
+      "Global Perspectives"
+    ],
+    "image": "teachingEnglishAI"
+  },
+  {
+    "id": 3,
+    "title": "Bachpan",
+    "subtitle": "Memories of Childhood",
+    "category": "Literary Publication",
+    "status": "released",
+    "year": "2025",
+    "authors": [
+      "Dr. K. Venkat Satish",
+      "Dr. G. Narayanasamy",
+      "Dr. Saroj Kumar Gupta"
+    ],
+    "price": "₹1000",
+    "isbn": "978-93-47100-01-7",
+    "description": "A literary work reflecting childhood memories, experiences, and cultural values through creative narratives.",
+    "features": ["Literature", "Childhood Studies", "Creative Writing"],
+    "image": "bachpan"
+  },
+  {
+    "id": 4,
+    "title": "Textual Embodiment",
+    "subtitle": "Disability, Narrative and Meaning",
+    "category": "Research Publication",
+    "status": "released",
+    "year": "2025",
+    "authors": [
+      "Dr. K. Venkat Satish",
+      "Dr. G. Narayanasamy",
+      "Dr. K. Sudhaker"
+    ],
+    "price": "₹1000",
+    "description": "Examines disability narratives, representation, embodiment, and meaning-making in literary and cultural texts.",
+    "features": [
+      "Disability Studies",
+      "Narrative Theory",
+      "Literary Studies",
+      "Cultural Studies"
+    ],
+    "image": "textualEmbodiment"
+  }
+]
