@@ -1,6 +1,4 @@
 import "../styles/publications.css";
-// import old1 from "../assets/oldPub1.jpeg";
-// import pdf1 from "../assets/old1.pdf";
 
 import publications from "../../data/publications.json";
 import genderPower from "../assets/vt7.jpeg";

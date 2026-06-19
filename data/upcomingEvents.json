@@ -1,23 +1,9 @@
 [
-    {
-        "id": 1,
-        "title": "International Conference",
-        "description": "Three Day International Conference Organized by SKVT Government Degree COllege, Rajamahendravarm",
-        "date": "23-25 April 2026",
-        "mode": "Conference"
-    },
-    {
-        "id": 5,
-        "title": "International Intensive WorkShop",
-        "description": "Harmonizing Human Intelligence ans AI Tools: Transforming Classroom Teaching, Learning Research Writing in 21st century",
-        "date": "21-22 March 2026",
-        "mode": "Virtual"
-    },
-    {
-        "id": 4,
-        "title": "International Conference",
-        "description": "Teaching English in the Era of Artificial Intelligence: Challenges and Opportunities",
-        "date": "11-13 April 2026",
-        "mode": "Virtual"
-    }
+  {
+    "id": 1,
+    "title": "A One-Day National Workshop",
+    "description": "Smart Speaking, Ethical Research",
+    "date": "02 september 2026",
+    "mode": "Virtual/Online"
+  }
 ]

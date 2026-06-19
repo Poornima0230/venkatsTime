@@ -14,5 +14,26 @@
     "date": "30 May 2026 - 31 May 2026",
     "venue": "10:00AM-12:00PM & 03:00PM-05:00PM",
     "mode": "Virtual/Online"
+  },
+  {
+    "id": 3,
+    "title": "International Conference",
+    "description": "Three Day International Conference Organized by SKVT Government Degree COllege, Rajamahendravarm",
+    "date": "23-25 April 2026",
+    "mode": "Conference"
+  },
+  {
+    "id": 4,
+    "title": "International Intensive WorkShop",
+    "description": "Harmonizing Human Intelligence ans AI Tools: Transforming Classroom Teaching, Learning Research Writing in 21st century",
+    "date": "21-22 March 2026",
+    "mode": "Virtual"
+  },
+  {
+    "id": 5,
+    "title": "International Conference",
+    "description": "Teaching English in the Era of Artificial Intelligence: Challenges and Opportunities",
+    "date": "11-13 April 2026",
+    "mode": "Virtual"
   }
 ]
