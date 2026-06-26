@@ -44,7 +44,8 @@
   top: 50%;
   transform: translateY(-50%);
   font-size: 30px;
-  color: white;
+  /* color: white; */
+  color: #555;
   padding: 8px 0;
   cursor: pointer;
   z-index: 99;

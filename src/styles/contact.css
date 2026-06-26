@@ -1,92 +1,87 @@
 .contact-page {
-    color: var(--accent-1);
-    /* height: 100dvh; */
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    /* padding: 19rem 3.5rem; */
-    flex-direction: column;
-    text-align: center;
+  color: var(--accent-1);
+  /* height: 100dvh; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* padding: 19rem 3.5rem; */
+  flex-direction: column;
+  text-align: center;
 
-    font-size: 2rem;
+  font-size: 2rem;
 
-    background-color: var(--accent-5);
+  background-color: var(--accent-5);
 
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 
-    margin-top: -13rem;
+  margin-top: -13rem;
 
-    & .contact-icon {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 1rem
-    }
-
-}
-
-.contact-page .underline {
-
-    width: 45%;
-    color: var(--accent-2);
-    height: 3px;
-    border: 2px solid var(--accent-2);
-    background-color: var(--accent-2);
-    margin-bottom: 3.5rem;
-}
-
-.contact-heading {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 5rem;
-    color: var(--accent-2);
-}
-
-
-.contact-glass {
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 0 1.6rem 1.6rem 0;
-    border: 0.1rem solid var(--accent-3);
-    padding: 1rem;
-    box-shadow: 0 0 30px rgba(255, 255, 0, 0.2);
-    /* width: 50%; */
-    height: 35rem;
+  & .contact-icon {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-    /* gap: 2rem; */
-    /* border-left: 5px solid var(--accent-3); */
-    -webkit-border-radius: 1.6rem 1.6rem 0 0;
-    -moz-border-radius: 0 1.6rem 1.6rem 0;
-    -ms-border-radius: 0 1.6rem 1.6rem 0;
-    -o-border-radius: 0 1.6rem 1.6rem 0;
+    gap: 1rem;
+  }
+}
+
+.contact-page .underline {
+  width: 45%;
+  color: var(--accent-2);
+  height: 3px;
+  border: 2px solid var(--accent-2);
+  background-color: var(--accent-2);
+  margin-bottom: 3.5rem;
+}
+
+.contact-heading {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 5rem;
+  color: var(--accent-2);
+}
+
+.contact-glass {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 0 1.6rem 1.6rem 0;
+  border: 0.1rem solid var(--accent-3);
+  padding: 1rem;
+  box-shadow: 0 0 30px rgba(255, 255, 0, 0.2);
+  /* width: 50%; */
+  height: 35rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  /* gap: 2rem; */
+  /* border-left: 5px solid var(--accent-3); */
+  -webkit-border-radius: 1.6rem 1.6rem 0 0;
+  -moz-border-radius: 0 1.6rem 1.6rem 0;
+  -ms-border-radius: 0 1.6rem 1.6rem 0;
+  -o-border-radius: 0 1.6rem 1.6rem 0;
 }
 
 .contact-glass h2 {
-    font-size: 2.3rem;
+  font-size: 2.3rem;
 }
-
-
 
 .contact-name {
-    font-family: "Orbitron", sans-serif;
-    color: var(--accent-2);
-    font-size: 3.5rem;
+  font-family: "Orbitron", sans-serif;
+  color: var(--accent-2);
+  font-size: 3.5rem;
 }
 
-@media (max-width:768px) {
-    .contact-glass {
-        width: 100%;
-    }
+@media (max-width: 768px) {
+  .contact-glass {
+    width: 100%;
+  }
 
-    .contact-heading {
-        padding-top: 0;
-    }
+  .contact-heading {
+    padding-top: 0;
+  }
 
-    .contact-glass {
-        height: 28rem;
-        /* margin-top: 3rem; */
-        /* margin-bottom: 1.2rem; */
-    }
+  .contact-glass {
+    height: 28rem;
+    /* margin-top: 3rem; */
+    /* margin-bottom: 1.2rem; */
+  }
 }
