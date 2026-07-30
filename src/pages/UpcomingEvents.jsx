@@ -3,7 +3,7 @@ import events from "../../data/upcomingEvents.json";
 import { useState } from "react";
 import image1 from "../assets/upcomingEvent1.png";
 import image2 from "../assets/latest.jpeg";
-
+import image3 from "../assets/indep.jpeg";
 import { EventList } from "../components/events/EventList";
 import { EventModal } from "../components/events/EventModal";
 
@@ -13,6 +13,7 @@ export const UpcomingEvents = () => {
   const brochureFiles = {
     1: image1,
     2: image2,
+    3: image3,
   };
 
   const handleViewDetails = (event) => {
