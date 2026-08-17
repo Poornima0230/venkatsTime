@@ -1,24 +1,10 @@
 [
   {
     "id": 1,
-    "title": "A One-Day National Workshop",
-    "description": "Smart Speaking, Ethical Research",
-    "date": "02 August 2026",
-    "mode": "Virtual/Online"
-  },
-  {
-    "id": 2,
-    "title": "Two Day Hands On National Workshop",
-    "description": " on advanced Data Science and AI technologies featuring hands-on sessions with expert resource persons.",
-    "date": "2026-08-08 to 2026-08-09",
-    "mode": "Virtual/Online"
-  },
-  {
-    "id": 3,
-    "title": "National Quiz 1857–1947",
-    "description": "The Road to Freedom – Celebrating India’s Journey of Freedom",
-    "date": "14 August 2026",
+    "title": "Three-Day National Hands-on Workshop: Leveraging AI Tools in Mathematics",
+    "description": "Leveraging AI Tools in Mathematics (Advancing Research & Academic Practice)",
+    "date": "27, 28, 29 September 2026",
     "mode": "Online",
-    "time": "2 to 4 PM"
+    "time": "Not specified"
   }
 ]

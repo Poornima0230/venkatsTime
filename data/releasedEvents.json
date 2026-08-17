@@ -35,5 +35,27 @@
     "description": "Teaching English in the Era of Artificial Intelligence: Challenges and Opportunities",
     "date": "11-13 April 2026",
     "mode": "Virtual"
+  },
+  {
+    "id": 6,
+    "title": "A One-Day National Workshop",
+    "description": "Smart Speaking, Ethical Research",
+    "date": "02 August 2026",
+    "mode": "Virtual/Online"
+  },
+  {
+    "id": 7,
+    "title": "Two Day Hands On National Workshop",
+    "description": " on advanced Data Science and AI technologies featuring hands-on sessions with expert resource persons.",
+    "date": "2026-08-08 to 2026-08-09",
+    "mode": "Virtual/Online"
+  },
+  {
+    "id": 8,
+    "title": "National Quiz 1857–1947",
+    "description": "The Road to Freedom – Celebrating India’s Journey of Freedom",
+    "date": "14 August 2026",
+    "mode": "Online",
+    "time": "2 to 4 PM"
   }
 ]
