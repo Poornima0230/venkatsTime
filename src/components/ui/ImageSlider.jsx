@@ -4,7 +4,8 @@ import { useEffect, useState } from "react";
 // import image4 from "../../assets/img3.jpeg";
 // import image1 from "../../assets/upcomingEvent1.png";
 // import image2 from "../../assets/latest.jpeg";
-import image1 from "../../assets/IMG-20260817-WA0026.jpg";
+import image1 from "../../assets/WhatsApp.jpeg";
+// import image1 from "../../assets/IMG-20260817-WA0025.jpg";
 
 export const ImageSlider = () => {
   const images = [image1];
