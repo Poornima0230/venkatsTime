@@ -5,10 +5,10 @@ import { useEffect, useState } from "react";
 // import image1 from "../../assets/upcomingEvent1.png";
 // import image2 from "../../assets/latest.jpeg";
 import image1 from "../../assets/WhatsApp.jpeg";
-// import image1 from "../../assets/IMG-20260817-WA0025.jpg";
+import image2 from "../../assets/25Sept.jpeg";
 
 export const ImageSlider = () => {
-  const images = [image1];
+  const images = [image1, image2];
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isHover, setIsHover] = useState(false);

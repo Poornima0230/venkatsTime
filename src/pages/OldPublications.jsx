@@ -5,6 +5,7 @@ import genderPower from "../assets/vt7.jpeg";
 import teachingAI from "../assets/vt8.jpeg";
 import bachpan from "../assets/bachpanC.jpeg";
 import textualEmbodiment from "../assets/textualEmbodimentC.jpeg";
+import prayerAnthology from "../assets/prayerAnthology1.jpeg";
 
 export const OldPublications = () => {
   const publicationImages = {
@@ -12,6 +13,7 @@ export const OldPublications = () => {
     teachingEnglishAI: teachingAI,
     bachpan: bachpan,
     textualEmbodiment: textualEmbodiment,
+    prayerAnthology: prayerAnthology,
   };
   return (
     <div className="publication-container">

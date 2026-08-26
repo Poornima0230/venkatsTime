@@ -1,5 +1,4 @@
 import "../styles/publications.css";
-import up1 from "../assets/upcomingpub.jpeg";
 
 export const UpPublications = () => {
   return (
@@ -8,7 +7,7 @@ export const UpPublications = () => {
       <hr data-aos="zoom-in" />
 
       <div className="each-publication-container" data-aos="fade-up">
-        <img src={up1} alt="upcoming publication" />
+        <h3>Nothing scheduled yet — new publications will appear here soon.</h3>
       </div>
     </div>
   );

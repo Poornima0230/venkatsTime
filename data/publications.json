@@ -81,5 +81,28 @@
       "Cultural Studies"
     ],
     "image": "textualEmbodiment"
+  },
+  {
+    "id": 5,
+    "title": "PRAYER / प्रार्थना",
+    "subtitle": "An Anthology of Poems / काव्य-संकलन",
+    "category": "Edited Volume",
+    "status": "released",
+    "year": "2025",
+    "editors": [
+      "Dr. K. Venkat Satish",
+      "Dr. G. Narayanasamy",
+      "Dr. Swati Jajoo"
+    ],
+    "price": "₹1000",
+    "isbn": "978-81-97722-01-9",
+    "description": "A bilingual anthology of poems exploring the theme of prayer, blending English and Hindi verses that reflect spiritual devotion, reflection, and the human connection to the divine.",
+    "features": [
+      "Poetry Anthology",
+      "Spiritual Literature",
+      "Bilingual (English/Hindi)",
+      "Devotional Themes"
+    ],
+    "image": "prayerAnthology"
   }
 ]

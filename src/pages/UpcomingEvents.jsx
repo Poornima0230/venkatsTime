@@ -6,12 +6,14 @@ import { EventList } from "../components/events/EventList";
 import { EventModal } from "../components/events/EventModal";
 
 import image1 from "../assets/IMG-20260817-WA0025.jpg";
+import image2 from "../assets/25Sept.jpeg";
 
 export const UpcomingEvents = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 
   const brochureFiles = {
     1: image1,
+    2: image2,
   };
 
   const handleViewDetails = (event) => {
