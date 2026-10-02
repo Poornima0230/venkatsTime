@@ -7,6 +7,7 @@ import upcoming1 from "../assets/upcoming1.pdf";
 import image1 from "../assets/upcomingEvent1.png";
 import image2 from "../assets/latest.jpeg";
 import image3 from "../assets/indep.jpeg";
+import image4 from "../assets/IMG-20260817-WA0025.jpg";
 
 import pdf1 from "../assets/old1.pdf";
 import pdf2 from "../assets/up1.pdf";
@@ -27,6 +28,7 @@ export const ReleasedEvents = () => {
     6: image1,
     7: image2,
     8: image3,
+    9:image4
   };
 
   const handleViewDetails = (event) => {

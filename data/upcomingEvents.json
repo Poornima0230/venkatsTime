@@ -1,13 +1,5 @@
 [
-  {
-    "id": 1,
-    "title": "Three-Day National Hands-on Workshop: Leveraging AI Tools in Mathematics",
-    "description": "Leveraging AI Tools in Mathematics (Advancing Research & Academic Practice)",
-    "date": "27, 28, 29 September 2026",
-    "mode": "Online",
-    "time": "Not specified"
-  }
-  ,{
+ {
     "id": 2,
     "title": "Two-Day Multidisciplinary International Conference on Reimagining Humanities Beyond Algorithm: In the Age of AI",
     "description": "Organized by Department of English & IQAC Cell, CH.S.D.ST. THERESA’S COLLEGE FOR WOMEN (ELURU) in collaboration with Venkat’s Time",
@@ -20,5 +12,13 @@
     "description": "Interdisciplinary Perspectives on Innovation, Technology & Sustainable Futures",
     "date": "Last Date of Submission: 31-10-2026",
     "mode": "Not specified"
+  },
+  {
+    "id": 4,
+    "title": "One-Day National Marathon Workshop on Current Trends and Issues in Management",
+    "description": "Morning Session: Current Trends in Management | Afternoon Session: Emerging Issues and Challenges in Management. Resource Person: Dr. S. Sriranjani Mokshagundam",
+    "date": "04-11-2026",
+    "mode": "Not specified",
+    "time": "Morning: 10:00 am – 12:00 Noon | Afternoon: 1:00 pm – 3:00 pm"
   }
 ]
